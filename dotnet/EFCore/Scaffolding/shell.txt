@@ -1,0 +1,4 @@
+Scaffold-DbContext 'Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Northwind' Microsoft.EntityFrameworkCore.SqlServer -Tables Employees Customers -ContextDir Data -OutputDir Models -Force
+
+Scaffold-DbContext 'Data Source=192.168.7.220;Initial Catalog=QTS_Panasonic;User Id = sa;Password = sce20181010;' Microsoft.EntityFrameworkCore.SqlServer -Tables sysSetting,test_table -ContextDir PData -OutputDir PModels -Force
+Scaffold-DbContext 'Data Source=192.168.7.220;Initial Catalog=PLS_Panasonic;User Id = sa;Password = sce20181010;' Microsoft.EntityFrameworkCore.SqlServer -Tables sysSetting -ContextDir PData -OutputDir PModels -Force
